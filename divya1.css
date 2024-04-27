@@ -1,0 +1,439 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.Cross{
+    color: #fff;
+    padding: 0;
+    margin: 0;
+   display: block;
+   position: relative;
+   left: 700px;
+   top: -70px;
+   font-size: 40px;
+}
+.About-Us .Read:hover{
+border-color: aqua;
+color: aqua;
+cursor: pointer;
+}
+.Nav1 li:hover{
+    color: aqua;
+    cursor: pointer;
+}
+.content .Nav li:hover{
+    color: aqua;
+    cursor: pointer;
+}
+.Menu-Btn h2{
+    font-size: 15px;
+    color: aliceblue;
+}
+#h21:hover,#h22:hover,#h23:hover,#h24:hover,#h25:hover,#h26:hover,#h27:hover,#h28:hover,#h29:hover,#h210:hover{
+    color: aqua;
+    cursor: pointer;
+}
+.right:hover{
+    color: aqua;
+    cursor: pointer;
+    border-color: aqua;
+}
+.Cross:hover{
+    color: aqua;
+    cursor: pointer;
+}
+.Read-More:hover{
+    color: aqua;
+    border-color: aqua;
+    cursor: pointer;
+}
+.Read-Blogs .Reads:hover {
+    color: aqua;
+    border-color: aqua;
+    cursor: pointer;
+   
+}
+.Social-Media li:hover{
+    cursor: pointer;
+}
+.Menu-Btn{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.95;
+    z-index: -1;
+    background-color: #2a304a;
+}
+.Menu{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    top: -1000px;
+    position: fixed;
+    transition: top 0.5s ease;
+    background-color: #2a304a;
+    color: #fff;
+}
+#Cardealer1{
+    background-color: #fff;
+    color: #333;
+    padding: 5px;
+}
+.overlay-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .Cars:hover #overlay-2, .Cars:hover #overlay-3, .Cars:hover #overlay-4,  .Cars:hover #overlay-4,  .Cars:hover #overlay-5,  .Cars:hover #overlay-6,  .Cars:hover #overlay-7{
+    z-index: -1;
+  }
+  #overlay-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(5, 164, 232, 0.188);
+    z-index: 1;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+    transition: z-index ease 0.1s;
+  }
+  #overlay-3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(210, 10, 245, 0.2);
+    z-index: 1;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+    transition: z-index ease 0.1s;
+  }
+  #overlay-4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(239, 36, 9, 0.274);
+    z-index: 1;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+    transition: z-index ease 0.1s;
+  }
+  #overlay-5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(233, 88, 4, 0.293);
+    z-index: 1;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+    transition: z-index ease 0.1s;
+  }
+  #overlay-6 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(2, 236, 197, 0.349);
+    z-index: 1;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+    transition: z-index ease 0.1s;
+  }
+  #overlay-7 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(2, 236, 99, 0.262);
+    z-index: 1;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+    transition: z-index ease 0.1s;
+  }
+.NavBar{
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+.image{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+}
+.content{
+    position: relative;
+    width: 100%;
+    color: aliceblue;
+}
+ul{
+    margin: 0;
+    list-style-type: none;
+}
+ul li{
+    display: inline-block;
+    padding: 14px 16px;
+    font-size: 20px;
+}
+#Cardealer{
+    padding: 5px;
+    background-color: #fff;
+    color: #333;
+}
+.Last-Item{
+    margin-left: 1050px;
+}
+.contents{
+    width: 100%;
+    height: 100%;
+    padding-top:400px ;
+    transition: padding-top 0.5s ease;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Last{
+    display: flex;
+    font-size: 18px;
+}
+h1{
+    color: aliceblue;
+    margin-right: 380px;
+}
+h4{
+    color: aliceblue;
+}
+hr{
+    width: 860px;
+    height: 1px;
+    background-color: aliceblue;
+}
+.right{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    border: solid 1px aliceblue;
+    color: aliceblue;
+}
+.Car{
+    width: 1500px;
+    height: 1000px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+.Cars{
+    position: relative;
+    height: 500px;
+    width: 500px;
+    font-size: 15px;
+}
+.Data h1{
+    margin: 0;
+    font-size: 30px;
+    margin-left: 80px;
+    margin-bottom: 100px;
+}
+.Photo img{
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+}
+.Photo{
+    position: absolute;
+    height: 500px;
+}
+.Data hr{
+    margin-left: 80px;
+    width: 375px;
+    height: 1px;
+}
+.Price li{
+  padding: 0;
+  margin: 0;    
+}
+#Firsts{
+    text-decoration: line-through;
+    font-size: 20px;
+}
+#Lasts{
+    font-size: 30px;
+}
+.Data{
+    color: aliceblue;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.View{
+    margin: 0;
+    margin-top: 20px;
+    padding: 5px;
+    font-size: 20px;
+    border: solid 1px aliceblue;
+}
+.View:hover{
+    color: aqua;
+    border-color: aqua;
+    cursor: pointer;
+}
+.About-Us hr{
+    margin: 0;
+    width: 100px;
+    margin-left: 100px;
+    padding-right: 30px;
+}
+.About-Us h1{
+    margin: 0;
+    padding: 10px;
+    padding-left: 100px;
+    padding-top: 90px;
+}
+.About-Us p{
+    padding: 10px;
+    padding-left: 100px;
+    font-size: 20px;
+}
+.About-Us .Read{
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 90px;
+    border: solid 1px aliceblue;
+    width: 140px;
+    text-align: center;
+}
+.About-Us{
+    width: 100%;
+    height: 500px;
+    background-color: #2a304a;
+    color: aliceblue;
+}
+.Blog{
+    width: 1500px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.Blog-Photo img{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+.Read-Blogs{
+    position: relative;
+    width: 500px;
+    height: 500px;
+}
+.Blog-Photo{
+    position: absolute;
+}
+.Blog-Info{
+    position: relative;
+    height: 500px;
+    width: 500x;
+    color: aliceblue;
+}
+.Blog-Info hr{
+    margin: 0;
+    padding: 0;
+    width: 430px;
+    margin-left: 30px;
+}
+.Blog-Info h1{
+    margin: 0;
+    padding: 0;
+    width: 500px;
+    padding: 10px;
+    padding-top: 150px;
+    padding-left: 30px;
+}
+.Blog-Info h5{
+    font-size: 20px;
+    padding-left: 30px;
+}
+.Blog-Info .Reads{
+    font-size: 20px;
+    border: solid 1px #fff;
+    width: 140px;
+    text-align: center;
+    padding: 10px;
+    margin-left: 30px;
+}
+.Testimonals{
+    width: 100%;
+    height: 500px;
+    background-color: #2a304a;
+    color: aliceblue;
+    margin: 0;
+}
+.Testimonals h1{
+    margin: 0;
+    padding: 10px;
+    padding-top: 100px;
+    padding-left: 80px;
+}
+.Testimonals hr{
+    margin: 0;
+    padding: 0;
+    width: 180px;
+    margin-left: 80px;
+}
+.Pre{
+    width: 100%;
+    display: flex;
+    font-size: 17px;
+    padding-top: 50px;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#No1{
+    margin-left: 70px;
+}
+.Read-More{
+    padding: 15px;
+    margin-left: 70px;
+    margin-top: 60px;
+    font-size: 20px;
+    border: solid 1px aliceblue;
+    width: 130px;
+    text-align: center;
+}
+.Social{
+    width: 100%;
+    height: 200px;
+    color: aliceblue;
+    background-color: #232943;
+}
+.Social-Media{
+    margin: 0;
+    padding: 0;
+    padding-top: 100px;
+    padding-left: 100px;
+}
