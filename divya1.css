@@ -13,11 +13,6 @@ body, html {
    top: -70px;
    font-size: 40px;
 }
-.About-Us .Read:hover{
-border-color: aqua;
-color: aqua;
-cursor: pointer;
-}
 .Nav1 li:hover{
     color: aqua;
     cursor: pointer;
@@ -437,3 +432,4 @@ hr{
     padding-top: 100px;
     padding-left: 100px;
 }
+
