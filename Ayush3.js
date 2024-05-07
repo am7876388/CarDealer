@@ -71,3 +71,4 @@ H22.addEventListener('click',function(){
                                 const url = 'About-Us.html';
                                 window.location.href = url;
                                 });
+                                
